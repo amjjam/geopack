@@ -1,7 +1,7 @@
 GEOPACK_OBJ=geopack.o geopack2008dp.o
-FFLAGS=-fPIC
+FFLAGS=-fPIC -g
 FC=gfortran
-CPPFLAGS=-fPIC
+CPPFLAGS=-fPIC -g
 CPP=g++
 
 
