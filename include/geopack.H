@@ -59,7 +59,7 @@ void bspcar(double theta, double phi, double br, double btheta, double bphi,
 void bcarsp(double x, double y, double z, double bx, double by, double bz,
 	    double &br, double &btheta, double &bphi);
 void recalc(int yr, int dy, int hr, int mn, int se, 
-	    double vxgse, double vygse, double vzgse);
+	    double vxgse=-400, double vygse=0, double vzgse=0);
 void gswgse(double xgsw, double ygsw, double zgsw,
 	    double &xgse, double &ygse, double &zgse);
 void gsegsw(double xgse, double ygse, double zgse,

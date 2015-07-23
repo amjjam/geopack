@@ -43,7 +43,7 @@ void bcarsp(double x, double y, double z, double bx, double by, double bz,
 }
 
 void recalc(int yr, int dy, int hr, int mn, int se, 
-	    double vxgse=-400, double vygse=0, double vzgse=0){
+	    double vxgse, double vygse, double vzgse){
   recalc_08_(&yr,&dy,&hr,&mn,&se,&vxgse,&vygse,&vzgse);
 }
 
