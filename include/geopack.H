@@ -37,9 +37,9 @@ extern "C"{
 		 double *xsm, double *ysm, double *zsm, int *j);
   void smgsw_08_(double *xsm, double *ysm, double *zsm,
 		 double *xgsw, double *ygsw, double *zgsw, int *j);
-  void geogsw_(double *xgeo, double *ygeo, double *zgeo,
+  void geogsw_08_(double *xgeo, double *ygeo, double *zgeo,
 	       double *xgsw, double *ygsw, double *zgsw, int *j);
-  void geodgeo_(double *h, double *xmum, double *r, double *theta, int *j);
+  void geodgeo_08_(double *h, double *xmum, double *r, double *theta, int *j);
 }
 
 void igrfGSW(double xGsw, double yGsw, double zGsw, 

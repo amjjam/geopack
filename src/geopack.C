@@ -110,23 +110,23 @@ void gswsm(double xgsw, double ygsw, double zgsw,
 void geogsw(double xgeo, double ygeo, double zgeo,
 	    double &xgsw, double &ygsw, double &zgsw){
   int j=1;
-  geogsw_(&xgeo,&ygeo,&zgeo,&xgsw,&ygsw,&zgsw,&j);
+  geogsw_08_(&xgeo,&ygeo,&zgeo,&xgsw,&ygsw,&zgsw,&j);
 }
 
 void gswgeo(double xgsw, double ygsw, double zgsw,
 	    double &xgeo, double &ygeo, double &zgeo){
   int j=-1;
-  geogsw_(&xgeo,&ygeo,&zgeo,&xgsw,&ygsw,&zgsw,&j);
+  geogsw_08_(&xgeo,&ygeo,&zgeo,&xgsw,&ygsw,&zgsw,&j);
 }
 
 void geodgeo(double h, double xmu, double &r, double &theta){
   int j=1;
-  geodgeo_(&h,&xmu,&r,&theta,&j);
+  geodgeo_08_(&h,&xmu,&r,&theta,&j);
 }
 
 void geogeod(double r, double theta, double &h, double &xmu){
   int j=-1;
-  geodgeo_(&h,&xmu,&r,&theta,&j);
+  geodgeo_08_(&h,&xmu,&r,&theta,&j);
 }
 
 
